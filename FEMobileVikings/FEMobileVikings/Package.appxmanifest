@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="20732HuP.MobileVikings" Publisher="CN=5836E8F4-9AED-4301-B66D-032A7250D935" Version="1.0.0.2" />
+  <Properties>
+    <DisplayName>Mobile Vikings</DisplayName>
+    <PublisherDisplayName>HuP#</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="NL" />
+    <Resource Language="EN" />
+    <Resource Language="FR" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="FEMobileVikings.App">
+      <VisualElements DisplayName="Mobile Vikings" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="ms-resource:AppDescription" ForegroundText="light" BackgroundColor="#DB0C0C">
+        <DefaultTile ShowName="logoOnly" WideLogo="Assets\WideTile.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#f2f0e3" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="MobileVikings.FrontEnd.BackgroundTasks.SimBalanceBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

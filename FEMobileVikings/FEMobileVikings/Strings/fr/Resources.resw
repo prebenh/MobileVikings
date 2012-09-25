@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Balance" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Crédit</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="MobileNumbers.Text" xml:space="preserve">
+    <value>Mes sims</value>
+  </data>
+  <data name="MVCredit" xml:space="preserve">
+    <value>Min. vers MV</value>
+  </data>
+  <data name="MVSms" xml:space="preserve">
+    <value>SMS vers MV</value>
+  </data>
+  <data name="Password.Text" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="SignIn.Content" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
+  <data name="Sms" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="TopUpHistory" xml:space="preserve">
+    <value>Recharges</value>
+  </data>
+  <data name="Usagehistory" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name="UserName.Text" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="ValidUntil" xml:space="preserve">
+    <value>Le forfait expire</value>
+  </data>
+  <data name="ForgotPassword.Content" xml:space="preserve">
+    <value>Mot de passe oublié ?</value>
+  </data>
+  <data name="SignInFailed.Text" xml:space="preserve">
+    <value>Impossible de connecté</value>
+  </data>
+  <data name="Available.Text" xml:space="preserve">
+    <value>Disponible</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Se déconnecter</value>
+  </data>
+  <data name="Total.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TryAgain.Text" xml:space="preserve">
+    <value>Essayez encore en 10 minutes</value>
+  </data>
+  <data name="Check.Content" xml:space="preserve">
+    <value>Vérifier</value>
+  </data>
+  <data name="GetAccount" xml:space="preserve">
+    <value>Demandez une carte SIM</value>
+  </data>
+  <data name="WhoIsMV.Text" xml:space="preserve">
+    <value>Que est Mobile Viking?</value>
+  </data>
+  <data name="WhoIsViking.Content" xml:space="preserve">
+    <value>Que est Viking?</value>
+  </data>
+  <data name="PrivacyPolicyTitle" xml:space="preserve">
+    <value>Vie privée</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Impossible de se connecter à l'Internet.</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Mobile Vikings is a virtual mobile provider in Belgium and this application supplies all the necessary information. Things like Sim Balance, Top up history, usage history, the mobile vikings twitter stream and the latest blog entries. You can also check who of your friends is a Mobile Viking and how much viking points you have earned and used.</value>
+  </data>
+  <data name="MobileNumber.Text" xml:space="preserve">
+    <value>Numéro mobile:</value>
+  </data>
+  <data name="VikingPointsDescription" xml:space="preserve">
+    <value>Actuellement, vous avez encore {0} Points Viking!
+Des points, c'est de l'argent
+Les Points Viking peuvent être échangés contre des recharges! 10 PV correspondent à 1 EUR.</value>
+  </data>
+</root>
