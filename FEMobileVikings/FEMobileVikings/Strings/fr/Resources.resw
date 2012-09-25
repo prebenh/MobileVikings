@@ -127,7 +127,7 @@
     <value>Data</value>
   </data>
   <data name="MobileNumbers.Text" xml:space="preserve">
-    <value>Mes sims</value>
+    <value>Mes cartes</value>
   </data>
   <data name="MVCredit" xml:space="preserve">
     <value>Min. vers MV</value>
@@ -184,7 +184,7 @@
     <value>Que est Mobile Viking?</value>
   </data>
   <data name="WhoIsViking.Content" xml:space="preserve">
-    <value>Que est Viking?</value>
+    <value>Est-il un Viking?</value>
   </data>
   <data name="PrivacyPolicyTitle" xml:space="preserve">
     <value>Vie privée</value>
@@ -202,5 +202,43 @@
     <value>Actuellement, vous avez encore {0} Points Viking!
 Des points, c'est de l'argent
 Les Points Viking peuvent être échangés contre des recharges! 10 PV correspondent à 1 EUR.</value>
+  </data>
+  <data name="PrivacyPolicy.Text" xml:space="preserve">
+    <value>In this document, “we” refers to  HuP#  respects your privacy and is committed to protecting your personal information. This privacy policy details how we manage your personal information and safeguard your privacy.
+This privacy policy sets out how we uses and protects any information that you give us when you use this software.
+We may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from 12 September 2012.</value>
+  </data>
+  <data name="PrivacyPolicyHeader.Text" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="PrivacyPolicySecurity.Text" xml:space="preserve">
+    <value>We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we employ industry-standard physical, electronic and managerial procedures to safeguard and secure the information we collect online.</value>
+  </data>
+  <data name="PrivacyPolicySecurityTitle.Text" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="PrivacyPolicyWhatWeCollect.Text" xml:space="preserve">
+    <value>Personal Information is that information or opinion (including information or an opinion forming part of a database), whether true or not, and whether recorded in a material form or not, about an individual whose identity is apparent, or can reasonably ascertained. As such personal information can include your name, address and contact details.
+
+We may collect the following information:
+
+- real name and mobile vikings username
+- contact information including email address
+- geographic information including country of residence
+- technical computer and network information such as IP address, device specification and usage metrics</value>
+  </data>
+  <data name="PrivacyPolicyWhatWeCollectTitle.Text" xml:space="preserve">
+    <value>What we collect</value>
+  </data>
+  <data name="PrivacyPolicyWhatWeDo.Text" xml:space="preserve">
+    <value>We use this information to understand our customers’ needs and provide them with a better product and service. In particular for the following reasons:
+
+- identify usage trends to improve the product experience
+- analyze error and crash reports to improve application reliability
+- gather feedback on the product’s user experience for future enhancements
+- provide cross-device services without user configuration</value>
+  </data>
+  <data name="PrivacyPolicyWhatWeDoTitle.Text" xml:space="preserve">
+    <value>What we do with the information we gather</value>
   </data>
 </root>
