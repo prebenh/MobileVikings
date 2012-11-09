@@ -104,10 +104,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MobileVikings.BackEnd.Implementation">
-      <HintPath>..\..\BCMobileVikings\02-Implementation\bin\Release\MobileVikings.BackEnd.Implementation.dll</HintPath>
+      <HintPath>..\..\BCMobileVikings\02-Implementation\bin\Debug\MobileVikings.BackEnd.Implementation.dll</HintPath>
     </Reference>
     <Reference Include="MobileVikings.BackEnd.Schema">
-      <HintPath>..\..\BCMobileVikings\02-Implementation\bin\Release\MobileVikings.BackEnd.Schema.dll</HintPath>
+      <HintPath>..\..\BCMobileVikings\02-Implementation\bin\Debug\MobileVikings.BackEnd.Schema.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">

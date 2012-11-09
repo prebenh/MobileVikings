@@ -125,6 +125,7 @@
     <Compile Include="Repositories\UsageHistoryTest.cs" />
     <Compile Include="Repositories\VikingPointsTest.cs" />
     <Compile Include="Services\AuthorizationServiceTest.cs" />
+    <Compile Include="Services\RssServiceTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -161,7 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\lib\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">

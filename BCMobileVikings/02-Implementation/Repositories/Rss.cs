@@ -17,9 +17,9 @@ namespace MobileVikings.BackEnd.Implementation.Repositories
         /// <returns></returns>
         public async Task<IEnumerable<RssItem>> GetLatestNews()
         {
-            var service = new RssService("http://feeds.feedburner.com/MobileVikingsBlog");
+            var service = new RssService();
 
-            return await service.Execute();
+            return await service.GetRssItems();
         }
     }
 }

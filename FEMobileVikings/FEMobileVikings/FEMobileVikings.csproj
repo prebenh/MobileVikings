@@ -254,23 +254,23 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="GalaSoft.MvvmLight.Extras.Win8">
-      <HintPath>..\packages\MvvmLight.4.1.23.0\lib\winrt45\GalaSoft.MvvmLight.Extras.Win8.dll</HintPath>
+      <HintPath>..\..\lib\GalaSoft.MvvmLight.Extras.Win8.dll</HintPath>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight.Win8">
-      <HintPath>..\packages\MvvmLight.4.1.23.0\lib\winrt45\GalaSoft.MvvmLight.Win8.dll</HintPath>
+      <HintPath>..\..\lib\GalaSoft.MvvmLight.Win8.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
-      <HintPath>..\packages\MvvmLight.4.1.23.0\lib\winrt45\Microsoft.Practices.ServiceLocation.dll</HintPath>
+      <HintPath>..\..\lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="MobileVikings.BackEnd.Implementation">
-      <HintPath>..\..\BCMobileVikings\02-Implementation\bin\Release\MobileVikings.BackEnd.Implementation.dll</HintPath>
+      <HintPath>..\..\BCMobileVikings\02-Implementation\bin\Debug\MobileVikings.BackEnd.Implementation.dll</HintPath>
     </Reference>
     <Reference Include="MobileVikings.BackEnd.Schema, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BCMobileVikings\02-Implementation\bin\Release\MobileVikings.BackEnd.Schema.dll</HintPath>
+      <HintPath>..\..\BCMobileVikings\02-Implementation\bin\Debug\MobileVikings.BackEnd.Schema.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\MobileVikings\02-Implementation\bin\Release\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\lib\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
